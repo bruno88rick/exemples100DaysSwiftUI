@@ -10,6 +10,10 @@ struct MyApp: App {
             ColorsAndFrames1()
             Gradients()
             ButtonsAndImages()
+            ButtonsAndImages1()
+            ShowingAlertMessages()
+            Modifiers()
+            Views()
         }
     }
 }

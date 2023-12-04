@@ -9,7 +9,24 @@ import SwiftUI
 
 struct Modifiers: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Hello, World!"){
+            print(type(of: self.body))
+        }
+        .frame(width: 200, height: 200)
+        .background(.red)
+        
+        .padding(30)
+        
+        Text("Hello, World")
+            .padding()
+            .background(.red)
+            .padding()
+            .background(.blue)
+            .padding()
+            .background(.green)
+            .padding()
+            .background(.yellow)
+        
     }
 }
 

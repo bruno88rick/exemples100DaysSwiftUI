@@ -9,7 +9,14 @@ import SwiftUI
 
 struct Views: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello World!")
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(.red)
     }
 }
 
