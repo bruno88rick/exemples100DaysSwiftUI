@@ -35,7 +35,9 @@ struct FormPickerTextFieldNavigationStack: View {
             }
             
             ///TEXT FIELD
+            /////Two Way Bidding with $, signalizing that the text field will read and write the name variable
             TextField("Enter yout name Here", text:$name)
+            // Without $, signalizing that the text view sill just read the value of the name variable
             Text("Your Name is \(name)")
             //BUTTONS
             Button("Tap Count: \(tapCount)") {
