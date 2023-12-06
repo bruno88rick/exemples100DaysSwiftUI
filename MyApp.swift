@@ -4,7 +4,7 @@ import SwiftUI
 struct MyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FormPickerTextFieldNavigationStack()
             Stacks()
             ColorsAndFrames()
             ColorsAndFrames1()
@@ -14,6 +14,13 @@ struct MyApp: App {
             ShowingAlertMessages()
             Modifiers()
             Views()
+            SomeView()
+            ConditionalModifiers()
+            EnviriomentModifiers()
+            ViewsAsProperties()
+            ViewComposition()
+            CustomModifiers()
+            CustomContainers()
         }
     }
 }
